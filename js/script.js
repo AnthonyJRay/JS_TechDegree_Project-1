@@ -37,6 +37,27 @@ const quotes = [
     source: 'Edsger W. Dijkstra',
     citation: 'Unknown',
     year: 'Unknown'
+},
+
+{
+  quote: "It's easy to dream, but much harder to execute it",
+  source: 'Gary Vaynerchuk',
+  citation: 'Unknown',
+  year: 'Unknown'
+},
+
+{
+  quote: 'Simple things should be simple, complex things should be possible',
+  source: 'Alan Kay',
+  citation: 'Unknown',
+  year: 'Unknown'
+},
+
+{
+  quote: "I'm a programmer. I like programming. The best way i've found to have a positive impact on code is to write it",
+  source: 'Robert C. Martin',
+  citation: 'Clean Architecture',
+  year: '2017'
 }
 ]
 
@@ -91,5 +112,5 @@ function printQuote () {
 
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
 
-
-// Remember to delete the comments that came with this file, and replace them with your own code comments.
+// Using setInterval to display a new quote every 10 seconds.
+setInterval(printQuote, 10000);
