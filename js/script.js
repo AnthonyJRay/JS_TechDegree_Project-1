@@ -15,7 +15,37 @@ project 1 - A Random Quote Generator
   Use console.log() to log your array of quotes to the console.
 ***/
 
+const quotes = [
+  { quote: 'A long descriptive name is better than a short enigmatic name. A long descriptive name is better than a long descriptive comment.',
+    source: 'Robert C. "Uncle Bob" Martin',
+    citation: 'Clean Code: A Handbook of Agile Software Craftsmanship',
+    year: '2008'
+  },
 
+  { quote: 'Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.',
+    source: 'Rick Cook',
+    citation: 'The Wizardry Compiled',
+    year: '1989'
+  },
+
+  { quote: 'We are looking at a society increasingly dependent on machines, yet decreasingly capable of making or even using them effectively.',
+    source: 'Douglas Rushkoff',
+    citation: 'Program or Be Programmed: Ten Commands for a Digital Age.',
+    year: '2010'
+  },
+
+  { quote: 'You should name a variable with the same care with which you name a first-born child',
+    source: 'Robert C. "Uncle Bob" Martin',
+    citation: 'Clean Code: A Handbook of Agile Software Craftsmanship',
+    year: '2008'
+  },
+
+  { quote: 'Progress is possible only if we train ourselves to think about programs without of them as pieces of executable code.',
+    source: 'Edsger W. Dijkstra,
+    citation: 'Unknown',
+    year: 'Unknown'
+}
+]
 
 
 /***
